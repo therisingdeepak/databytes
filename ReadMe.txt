@@ -1,15 +1,3 @@
-Feed Reader
-    by Eric S. Johnsen
-
-===========================================================================
-Description:
-
-This is a simple syndication feed reader. It only supports feeds from one URL (http://feeds2.feedburner.com/TheTechnologyEdge).
-It displays a list of articles in the root view controller along with their publish date. Selecting a row in the article table pushes a detail view controller onto the navigation stack which displays the article's HTML content.
-
-This application uses the CoreData framework to store all articles published within the past two years. This allows content to be viewed offline, with the exception of images included in article content.
-
-The most complicated logic is contained in SMParseFeedOperation.m. This is where the feed data is parsed and handled. It is heavily commented.
 
 <!-- ********************************************** -->
 <!-- This is an example of an article in the Feed 	-->
