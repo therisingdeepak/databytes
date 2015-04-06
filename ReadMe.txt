@@ -27,7 +27,7 @@
 </entry>
 
 ===========================================================================
-Included files description:
+Included test files description:
 
 SMAppDelegate
 Functions as the applications delegate. Downloads the feed data using an asynchronous NSURLConnection. Spawns our custom XML parsing operation.
